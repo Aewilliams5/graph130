@@ -1,0 +1,108 @@
+body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('../images/cascade_mountains-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+article, nav, header, footer, aside {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #2C3E50;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2980B9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+nav a:hover {
+    background-color: rgba(41, 128, 185, 0.1);
+}
+
+article section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    width: 100%;
+    max-width: 350px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    margin-top: 10px;
+    color: #7F8C8D;
+}
+
+aside {
+    margin-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #7F8C8D;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
