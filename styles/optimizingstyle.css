@@ -1,0 +1,31 @@
+nav {
+    background: grey;
+    border: 3px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    flex: 1;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #3e3e3e;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
