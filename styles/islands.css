@@ -1,0 +1,118 @@
+:root {
+    --green: #074817 ;
+    --white: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+body, header, main, section, footer, article, aside {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+main, header, nav ul, footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightblue;
+}
+
+main section {
+    border: solid;
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+}
+
+/* following classes will govern the sections and make them work within the grind*/
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.pics6 {
+    background-image: url(../images/sj-067.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+.pics4 {
+    background-image: url(../images/sj-009.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.pics2 {
+    background-image: url(../images/sj-003.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.item8, .item9, .item10, .hero-orcas {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+header {
+    background-color: var(--white);
+    text-align: center;
+}
+header a, header p, nav a {
+    color: lightgrey;
+    text-decoration: none;
+}
+.hero-orcas, main section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-orcas {
+    background-image: url(../images/sj-050.jpg);
+}
+h1 {
+    color: var(--white);
+    text-transform: uppercase;
+    text-shadow: var(--green) 3px 3px 3px;
+
+}
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    height: 100px;
+
+}
+nav ul {
+    background-color: var(--white);
+}
+nav ul li:hover {
+    background-color: lightgrey;
+}
+
+.item1 {
+    background-image: url(../images/sj-041.jpg);
+}
+
+.item3 {
+background-image: url(../images/sj-010.jpg);
+}
+
+.item5 {
+    background-image: url(../images/sj-065.jpg);
+}
+
+.item7 {
+    background-image: url(../images/sj-050.jpg);
+}
+
