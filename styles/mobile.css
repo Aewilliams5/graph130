@@ -1,0 +1,19 @@
+@media screen and (max-width:550px) {
+    nav, main, footer, article, main ul, header, nav ul, .leroy , .loki {
+        width:90%;
+        display: block;
+        margin:auto;
+    }
+    body {
+        padding:5px;
+    }
+    .pure-g, .pure-menu-horizontal .pure-menu-item {
+        display: block;
+    }
+    .pure-u-1-5, .pure-u-1-2 {
+        width:90%;
+    }
+    .loki img, .leo img {
+        width:90%;
+    }
+}
