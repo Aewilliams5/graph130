@@ -1,0 +1,19 @@
+/* Default styles for the page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff; 
+}
+
+/* Media query for screens with a max-width of 1080px */
+@media screen and (max-width: 1080px) {
+    body {
+        background-color: #add8e6; 
+    }
+}
+
+/* Media query for screens with a max-width of 580px */
+@media screen and (max-width: 580px) {
+    body {
+        background-color: #ffb6c1; 
+    }
+}
