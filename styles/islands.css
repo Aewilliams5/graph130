@@ -65,6 +65,7 @@ header {
     height: 100px;
     width: auto;
     margin: 10px auto;
+    display: flex;
 }
 header a, header p, nav a, label {
     color:var(--blue);

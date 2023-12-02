@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stacks the nav items vertically */
+    }
+
+    .loki, .leo {
+        width: auto; /* Adjusts the width for mobile */
+        float: none;
+        margin: 0 auto;
+    }
+
+    .loki img, .leo img {
+        width: 100%; /* Makes images responsive */
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .leroy, .loki section, .leo section {
+        display: block; /* Stacks the text blocks */
+        margin: 0; /* Adjusts margin for stacked layout */
+        text-align: center; /* Centers the text */
+    }
+
+    /* Reset padding and margins as needed for smaller screens */
+    nav li, nav a {
+        padding: 10px 0; /* Adjusts padding for stacked nav items */
+    }
+}

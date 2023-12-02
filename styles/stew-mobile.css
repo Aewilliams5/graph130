@@ -1,36 +1,6 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) 
     .stew-content {
-        padding: 10px;
+        width: auto;
+    
     }
-
-    h1 {
-        font-size: 20px;
-        margin: 10px 0;
     }
-
-    h2 {
-        font-size: 18px;
-        margin: 8px 0;
-    }
-
-    h3 {
-        font-size: 16px;
-        margin: 6px 0;
-    }
-
-    p, ul, ol {
-        font-size: 14px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto 10px;
-    }
-
-    footer {
-        font-size: 12px;
-        text-align: center;
-    }
-}

@@ -1,15 +1,23 @@
-body {
-    background-color: #FFFFFF;
-}
 
 @media screen and (max-width: 1080px) {
-    body {
-        background-color: #AED6F1;
-    }
-}
 
-@media screen and (max-width: 580px) {
-    body {
-        background-color: #FADBD8;
+    .logo1 {
+        height: 30px;
     }
-}
+
+    nav ul {
+        align-content: center;
+        display: flex;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    main section {
+        height: auto;
+        width: auto;
+    }
+    }
+
