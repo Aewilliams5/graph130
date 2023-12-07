@@ -1,0 +1,62 @@
+/* Reset some basic elements */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Fix the top bar */
+  .top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Add padding to body to not overlap with the fixed header */
+  body {
+    padding-top: 60px; /* Adjust based on the height of your top-bar */
+  }
+  
+  /* Navigation bar */
+  .navigation {
+    display: none; /* This will hide the navigation, you can change it to 'flex' when you want it to display */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #333; /* or any color you prefer */
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  
+  /* Image styles */
+  .full-screen-image {
+    width: 100%; /* Adjust if they are too large */
+    height: auto;
+    display: block;
+  }
+  
+  /* Section styles */
+  .container section {
+    display: block; /* Use flex if you want side-by-side layout with the image */
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .full-screen-image {
+      width: 100%;
+    }
+    /* other responsive styles */
+  }
+  

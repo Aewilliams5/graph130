@@ -1,0 +1,33 @@
+
+@media only screen and (max-width: 768px) {
+
+.container section {
+  width: 440px;
+}
+
+h2 {
+  text-align: center;
+  margin-left: 0;
+}
+
+.full-screen-image {
+  width: auto;
+  max-width: 50%;
+  height: auto;
+  margin-left: 134px;
+  margin-top: 0px;
+  align-items: center;
+
+}
+
+.navigation {
+  display: none;
+}
+
+body h2 {
+  font-size: 1.1em; 
+}
+
+body p {
+  font-size: 0.9em; 
+}
